@@ -43,6 +43,12 @@ table {
 }
 header{
     background-color: #bbb;
+    padding: 20px 0;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
 }
 nav li{
     display: inline;    /*Quitar subrayado  */
@@ -54,5 +60,11 @@ nav a{
     font-weight: bold;  /*Hacer negrito el texto  */
     font-size: 22px;  /*El tamaño del texto */
     text-decoration: none;  /*Quitar subrayado  */
+   
 
+}
+.navv{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
 }
