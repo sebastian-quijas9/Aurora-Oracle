@@ -1,70 +1,211 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
-header{
-    background-color: #bbb;
-    padding: 20px 0;
+header {
+  background-color: #bbb;
+  padding: 20px 0;
 }
-nav{
-    position: absolute;
-    top: 110px;
-    right: 0;
+nav {
+  position: absolute;
+  top: 110px;
+  right: 0;
 }
-nav li{
-    display: inline;    /*Quitar subrayado  */
-    margin: 0 0 0 15px  ;   /*margen 0 y despues 15 */
+nav li {
+  display: inline; /*Quitar subrayado  */
+  margin: 0 0 0 15px; /*margen 0 y despues 15 */
 }
-nav a{
-    text-transform: uppercase;  /*Hacer mayusculas el texto  */
-    color: #000000; 
-    font-weight: bold;  /*Hacer negrito el texto  */
-    font-size: 22px;  /*El tamaño del texto */
-    text-decoration: none;  /*Quitar subrayado  */
-   
+nav a {
+  text-transform: uppercase; /*Hacer mayusculas el texto  */
+  color: #000000;
+  font-weight: bold; /*Hacer negrito el texto  */
+  font-size: 22px; /*El tamaño del texto */
+  text-decoration: none; /*Quitar subrayado  */
+}
+nav a:hover {
+  color: blue;
+}
+.navv {
+  width: 940px;
+  position: relative;
+  margin: 0 auto;
+}
 
+.usuarioss {
+  width: 940px;
+  margin: 0 auto; /*LOS PONGA CASI CENTRADO  */
+  padding: 50px; /*PARA QUE SE SEPARE DE EL ENCABEZADO  */
 }
-.navv{
-    width: 940px;
-    position: relative;
-    margin: 0 auto;
+.usuarioss li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 8px 1.5%; /*ESPACIO DE ARRIBA Y DE LOS LADOS DE LA CAJA  */
+  padding: 30px 20px;
+  box-sizing: border-box; /*PARA QUE NO SE HAGA EL SALTO DE LINEA SI ES MENOS DEL TAMANO */
+  border-color: #000000;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 10px;
+}
+/* HOVER CAPTURAR A EL PONER CURSOR */
+.usuarioss li:hover {
+    border-color: blue;
+    cursor: pointer;
+   
+  }
+.usuarioss li:active {
+  border-color: rgb(24, 167, 76);
+}
+.usuarioss h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+/* PARA QUE SE AUMENTE TAMBIEN EL H2 EL TITULO */
+.usuarioss li:hover h2{
+  border-color: blue;
+  cursor: pointer;
+  font-size: 33px;
+}
+
+.descrip {
+  font-size: 18px;
+}
+.descrip2 {
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+footer{
+    text-align: center;
+    background: url(./imagenes/bg.jpg);
+    padding: 40px;
+}
+
+.copy{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    margin: 20px;
 }
