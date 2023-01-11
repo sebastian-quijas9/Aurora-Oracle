@@ -118,20 +118,13 @@ q:after {
   content: "";
   content: none;
 }
-
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
 header {
   background-color: #bbb;
   padding: 20px 0;
-}
-.navv {
-  width: 940px;
-  position: relative;
-  margin: 0 auto;
 }
 nav {
   position: absolute;
@@ -152,7 +145,11 @@ nav a {
 nav a:hover {
   color: blue;
 }
-
+.navv {
+  width: 940px;
+  position: relative;
+  margin: 0 auto;
+}
 
 .usuarioss {
   width: 940px;
@@ -167,7 +164,9 @@ nav a:hover {
   margin: 8px 1.5%; /*ESPACIO DE ARRIBA Y DE LOS LADOS DE LA CAJA  */
   padding: 30px 20px;
   box-sizing: border-box; /*PARA QUE NO SE HAGA EL SALTO DE LINEA SI ES MENOS DEL TAMANO */
-  order: 2px solid #000000;
+  border-color: #000000;
+  border-width: 2px;
+  border-style: solid;
   border-radius: 10px;
 }
 /* HOVER CAPTURAR A EL PONER CURSOR */
