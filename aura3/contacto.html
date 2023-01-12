@@ -24,16 +24,65 @@
     <main>
       <form>
         <label form="nombre">Escribe tu nombre:</label>
-        <input type="text" id="nombre" />
+        <input type="text" id="nombre" class="input-padron " required placeholder="jose"/>
 
         <label for="correoelectronico">Ingresa Correo Electronico:</label>
-        <input type="text" id="correoelectronico" />
+        <input type="email" id="correoelectronico" class="input-padron" required placeholder="hola@gmail.com"/>
 
         <label for="telefono">Telefono:</label>
-        <input type="text" id="telefono" />
+        <input type="number" id="telefono" class="input-padron" required/>
 
-        <input type="submit" value="enviar" />
+        <label for="mensaje">Mensaje</label>
+        <textarea  id="mensaje" cols="70" rows="10" class="input-padron" required></textarea>
+
+        <fieldset>
+          <legend>Como te gustaria que te contacten?</legend>
+        <label for="radio-email"> <input type="radio" name="contacto" value="email" id="radio-email" checked>email</label>
+
+        <label for="radio-telefono"> <input type="radio" name="contacto" value="telefono" id="radio-telefono">telefono</label>
+
+        <label for="radio-whatssap"> <input type="radio" name="contacto" value="whatssap" id="radio-whatssap">whatssap</label>
+        </fieldset>
+
+         </fieldset>
+          <select name="" id="">
+            <option value="">Manana</option>
+            <option value="">Tarde</option>
+            <option value="">Noche</option>
+          </select>
+        </fieldset>
+
+        
+
+        <legend><input type="checkbox">Le gustaria recibir Novedades?</legend>
+        
+
+
+        <input type="submit" value="Enviar" class="enviar" />
       </form>
+
+      <table>
+        <thead>
+          <tr>
+            <td>Dia</td>
+            <td>Horario</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Lunes</td>  
+            <td>8:20</td>
+          </tr>
+          <tr>
+            <td>Miercoles</td>
+            <td>7:20</td>
+          </tr>
+          <tr>
+            <td>Viernes</td>
+            <td>6:20</td>
+          </tr>
+        </tbody>
+      </table>
     </main>
 
     <footer>

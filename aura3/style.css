@@ -171,14 +171,56 @@ form {
   margin: 40px 0;
 }
 
-form label {
+form label, form legend {
   display: block;
   font-size: 20px;
 }
 
-form input {
+.input-padron{
   display: block;
   margin: 0 0 20px;
   padding: 10px 25px;
   width: 50%;
+}
+.checkbox{
+  margin: 20px 0;
+}
+p{
+  color: red;
+}
+.enviar{
+  width: 40%;
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background: rgba(17, 34, 17, 0.99);
+  border: none;
+  transition: 3s all;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.enviar:hover{
+  background: rgb(51, 142, 51);
+   transform: scale(1.2) ;   /*sE TRANSFORMA Y SE HACE MAS GRNADE EL BOTON */
+  /* transform: rotate(70deg);   PARA QUE SE ROTE EL BOTON */
+ 
+
+}
+
+table{
+  margin: 40px;
+}
+
+thead{
+  background: rgb(22, 19, 19);
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+td,tr{
+  border: 1px solid;
+  padding: 8px 15px;
 }
