@@ -15,3 +15,10 @@ float:left
 como el 
 float: right 
 sirven para que el elemento se destaque en la pantalla, la superficie del elemento continúa siendo utilizada y los otros elementos de texto o elementos en línea se posicionan alrededor de él.
+
+
+
+display:alight:top    (Ocupa estar pegado en el html las letras con la iamgen para que haga caso el style)
+
+box-shadow: para dar sombra a algo
+text-shadow: para dar sombra a letras

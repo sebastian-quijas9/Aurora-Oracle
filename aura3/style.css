@@ -224,3 +224,12 @@ td,tr{
   border: 1px solid;
   padding: 8px 15px;
 }
+
+@media screen and (max-width:480px) {
+  h1{
+    text-align: center;
+  }
+  nav{
+    position: static;
+  }
+}
